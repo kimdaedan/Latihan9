@@ -1,6 +1,6 @@
 const db = require('./db.config');
 
-// Model User (berisi query dasar)
+
 const User = {
     getAll: (callback) => {
         db.query('SELECT * FROM users', callback);

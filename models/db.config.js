@@ -8,7 +8,7 @@ const db = mysql.createConnection({
     database: 'dbpraktikum8'
 });
 
-// Coba koneksi
+
 db.connect(err => {
     if (err) {
         console.error('Koneksi database gagal:', err);
